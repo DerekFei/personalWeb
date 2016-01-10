@@ -1,0 +1,131 @@
+
+/*Big tablet to 1200px (widths smaller than the 1200px row */ 
+@media only screen and (max-width:1200px){
+    
+    html{
+        font-size:18px;
+    }
+  
+    .row{
+        padding-left:4%;
+        padding-right:4%;
+    }
+    header .row{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .head-right{
+        padding:61px 30px;
+    } 
+    .head-right h1{
+    padding-right: 4px;
+    }
+    .section-nav ul{
+        height:47px;
+        overflow: hidden;
+    }
+}
+
+/*Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width:1023px){
+    html{
+        font-size:16px;
+    }
+   
+    section{padding:60px 0;}
+    
+   .head-right{
+        padding:68px 18px;
+    } 
+    .head-right h1{
+    padding-right: 4px;
+    }
+   .section-nav ul{
+       height:45px;
+       overflow: hidden;
+    }
+   
+    
+}
+
+
+/*Small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width:767px){
+  
+    header{text-align: center;}
+     html{
+        font-size:14px;
+    }
+   
+    section{padding:50px 0;}
+    .head-right{
+        display: none;
+    } 
+    
+    .section-nav ul li{
+        font-size: 120%;
+    }
+    
+     .section-nav ul{
+       height:45px;
+       overflow: hidden;
+    }
+    
+}
+
+
+/*Small phones: from 0 to 480px*/
+@media only screen and (max-width:480px){
+  header{text-align: center;}
+     html{
+        font-size:16px;
+    }
+   
+    section{padding:50px 0;}
+    
+    .section-nav ul{
+        height:40px;
+         overflow: hidden;
+    }
+    .section-nav ul li{
+        font-size: 80%;
+        width:24%;
+        padding:10px 0px;
+    }
+    
+    .skill-line h4{
+        text-align: left;
+        margin-bottom: -10px;
+    }
+    .skill-bar-pro{
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .skill-bar-med{
+        width:70%;
+        margin-bottom: 10px;
+    }
+    .skill-bar-entry{
+        width:30%;
+        margin-bottom: 10px;
+    }
+    .projLeft{
+        padding: 10px 30%;
+        text-align: center;
+    }
+    .section-experience .title-left{
+        text-align: left;
+        border-right: 0px solid #2980b9;
+        border-bottom: 2px solid #2980b9;
+        margin-bottom: 5px;
+    }
+    .section-experience .title-right{
+        margin-left:0px;
+        text-align:left;
+        padding:6px 0px;
+    }
+    .section-experience img{
+        height:30px;
+        margin:4px 0px;
+    }
+}
