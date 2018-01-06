@@ -1,27 +1,4 @@
 $(document).ready(function() {
-    /*---------------------------*/
-    /*      For the nav bar      */
-    /*---------------------------*/
-    
-    $('.js--section-abt').waypoint(function(direction) {
-        if(direction == "down") {
-            $('.js--section-nav').css('position','fixed');
-            $('.js--section-nav').css('top','-1px');
-            $('.js--section-nav').css('border-top','1px solid #2980b9');
-            $('.js--section-navTag').css('display','block');
-        } else {
-            $('.js--section-nav').css('position','relative');
-            $('.js--section-navTag').css('display','none');
-            $('.js--section-nav').css('border-top','none');
-            
-        }
-        
-    }, {
-        offset:'50px'
-    });
-    
-
-    
     
     /*---------------------------*/
     /*---scroll on buttuns ------*/
@@ -41,7 +18,27 @@ $(document).ready(function() {
       });
     });
   
+    /*---------------------------*/
+    /*      For the nav bar      */
+    /*---------------------------*/
     
+    $('.js--section-abt').waypoint(function(direction) {
+        if(direction == "down") {
+            $('.js--section-nav').css('position','fixed');
+            $('.js--section-nav').css('top','-1px');
+            $('.js--section-navTag').css('display','block');
+        } else {
+            $('.js--section-nav').css('position','relative');
+            $('.js--section-navTag').css('display','none');
+            $('.js--section-nav').css('border-top','none');
+            
+        }
+        
+    }, {
+        offset:'8%'
+    });
+    
+
     
     /*---------------------------*/
     /*--- Animation on scroll ---*/

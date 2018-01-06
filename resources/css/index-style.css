@@ -142,15 +142,15 @@ a{
 /*---      Header        ---*/
 /*--------------------------*/
 header{
-    background-image:-webkit-linear-gradient(rgba(3, 67, 142, 0.81), rgba(0, 7, 36, 0.9)), url(img/index-bg.jpg);
-    background-image:linear-gradient(rgba(3, 67, 142, 0.81),rgba(0, 7, 36, 0.9)), url(img/index-bg.jpg);
+    background-image:-webkit-linear-gradient(rgba(3, 54, 104, 0.6), rgba(0, 7, 36, 0.8)), url(img/index-bg.jpg);
+    background-image:linear-gradient(rgba(3, 67, 142, 0.6),rgba(0, 7, 36, 0.8)), url(img/index-bg.jpg);
     background-position:center;
     background-size:cover;
     height:350px;
     padding-left:5%;
     padding-right:5%;
     width:100%;
-    
+    overflow: hidden;
 }
 
 .head-left{
@@ -187,6 +187,7 @@ header .nameBig{
     right: 5%;
     text-align: right;
     float:right;
+    overflow: hidden;
 }
 .head-right img{
     height:100px;
@@ -197,6 +198,7 @@ header .nameBig{
     font-family: 'Orbitron', sans-serif;
     color:white;
     padding-bottom: 20px;
+    overflow: hidden;
 }
 .head-right .line2{
     font-weight: 200;
@@ -204,6 +206,7 @@ header .nameBig{
     font-family: 'Orbitron', sans-serif;
     color:white;
     border-top:1px solid white;
+    overflow: hidden;
 }
 .head-right h1{
     padding-right: 4px;
@@ -306,6 +309,11 @@ header .nameBig{
     box-shadow: 1px 2px 5px #888888;
 }
 
+.tech-logo{
+    height: 2rem;
+    margin-right: 0.3rem
+}
+
 /*--------------------------*/
 /*---      Project       ---*/
 /*--------------------------*/
@@ -330,11 +338,12 @@ header .nameBig{
 .projLeft{
     padding-left:20%;
     padding-right:1%;
-    
+    overflow: hidden;
 }
 .projLeft img{
     width:100%;
     border:1px solid white;
+    overflow: hidden;
 }
 
 .projRight{
@@ -371,6 +380,11 @@ header .nameBig{
 .section-experience img{
     height:30px;
     margin:4px 8px;
+    
+}
+
+.section-experience .exp-right{
+    overflow: hidden;
 }
 
 .section-experience .expRow{
