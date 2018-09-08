@@ -65,7 +65,7 @@ h1,h2,h3{
 }
 h1{
     font-family: 'Orbitron', sans-serif;
-    clolor:#fff;
+    color:#fff;
     margin-top:0;
     margin-bottom: 20px;
     font-size:240%;
@@ -142,7 +142,7 @@ a{
 /*---      Header        ---*/
 /*--------------------------*/
 header{
-    background-image:-webkit-linear-gradient(rgba(3, 54, 104, 0.6), rgba(0, 7, 36, 0.8)), url(img/index-bg.jpg);
+    /*background-image:-webkit-linear-gradient(rgba(3, 54, 104, 0.6), rgba(0, 7, 36, 0.8)), url(img/index-bg.jpg);*/
     background-image:linear-gradient(rgba(3, 67, 142, 0.6),rgba(0, 7, 36, 0.8)), url(img/index-bg.jpg);
     background-position:center;
     background-size:cover;
@@ -173,6 +173,7 @@ header .nameSmall{
     font-weight: 700;
     font-size:110%;
 }
+
 header .nameBig{
     color:white;
     font-family: 'Orbitron', sans-serif;
@@ -268,6 +269,22 @@ header .nameBig{
 /*--------------------------*/
 /*---      about         ---*/
 /*--------------------------*/
+.aws-container{
+    display:inline-block;
+    vertical-align: top;
+}
+.about-logo{
+    width: 10rem;
+}
+.about-logo-container{
+    text-align: center;
+}
+.about-text{
+    text-align: center;
+    margin-top: -0.5rem;
+    font-size: 80%;
+    font-weight: 600;
+}
 .skill-set{
     margin-bottom: 30px;
     text-align: center;
